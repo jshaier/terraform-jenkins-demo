@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/erlangshen2018/terraform-jenkins-demo.git'
+                git 'https://github.com/jshaier/terraform-jenkins-demo.git'
             }
         }
 
