@@ -1,6 +1,6 @@
 variable "region" {
   type    = string
-  default = "ap-southeast-1"
+  default = "ap-northeast-2"
 }
 
 variable "vpc_cidr" {
@@ -15,12 +15,12 @@ variable "subnet_cidr" {
 
 variable "availability_zone" {
   type    = string
-  default = "ap-southeast-1a"
+  default = "ap-northeast-2a"
 }
 
 variable "instance_type" {
   type    = string
-  default = "t2.micro"
+  default = "t3.micro"
 }
 
 variable "ami_id" {
